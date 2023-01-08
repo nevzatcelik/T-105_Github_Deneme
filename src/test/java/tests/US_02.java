@@ -6,6 +6,6 @@ import utilities.Driver;
 public class US_02 {
     @Test
     public void test01(){
-        Driver.getDriver().get("https://amazon.com");
+        Driver.getDriver().get("https://facebook.com");
     }
 }
