@@ -11,5 +11,6 @@ public class US_01 {
         System.out.println("acele ekledim");
         Driver.getDriver().get("https://www.google.com");
         Driver.getDriver().navigate().to("https://www.amazon.com");
+        System.out.println("conflict icin");
     }
 }
