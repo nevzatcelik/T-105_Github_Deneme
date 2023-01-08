@@ -8,5 +8,6 @@ public class US_01 {
     @Test
     public void googleTest(){
         Driver.getDriver().get("https://www.google.com");
+        Driver.getDriver().navigate().to("https://www.amazon.com");
     }
 }
